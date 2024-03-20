@@ -23,8 +23,9 @@ def extract_text(text):
   return drop_value
 
 def email_content(drop_value):
+  # as a security measure use credentials store as a environment variables 
   sender = 'user46018@gmail.com'
-  receiver = 'tmr.sonali28@gmail.com'
+  receiver = 'senders@gamil.com'
   subject = "Stock Trend Drop!!"
   password = "nknzq629"
   contents = """
